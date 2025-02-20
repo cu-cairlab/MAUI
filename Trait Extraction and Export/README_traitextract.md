@@ -13,7 +13,7 @@ Packages:
 - pyproj
 - matplotlib
 - shapely
-- geopandas
+- geopandas &ge;0.14.2
 - geocube
 - rioxarray
 - argparse
