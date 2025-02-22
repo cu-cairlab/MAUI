@@ -49,9 +49,10 @@ To use the script, follow these steps:
 
 1. Download the ```traitextract.py``` file
 2. Open Terminal (Mac) or other command line interface (Windows/Linux)
-3. Navigate to the directory where the ```traitextract.py``` file is saved. Ex:
+3. Ensure all required packages are installed in your coding environment (see package and version requirements above). Make sure that you are running a python version &ge;3.11 
+4. Navigate to the directory where the ```traitextract.py``` file is saved. Ex:
    ```cd User/Downloads/```
-4. Type the following:
+5. Type the following:
    ``` python traitextract.py path/to/orthomosaic path/to/mask path/to/output_directory path/to/metadata id_var1 id_var2 ...```
 
    Example usage:
