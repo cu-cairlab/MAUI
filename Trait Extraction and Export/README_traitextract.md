@@ -5,11 +5,11 @@ Requirements:
 
 Packages:
 - argparse
-- os 
-- glob
+- glob 
+- json
+- os
 - geocube 0.4.2
 - geopandas 0.14.2
-- json
 - matplotlib 3.8
 - numpy 1.26.3
 - pandas 2.1.4
