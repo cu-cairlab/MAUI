@@ -4,19 +4,20 @@ Requirements:
 - Python &ge;3.11
 
 Packages:
+- argparse
 - os 
 - glob
-- numpy
-- rasterio
-- pandas
+- geocube 0.4.2
+- geopandas 0.14.2
 - json
-- pyproj
-- matplotlib
-- shapely
-- geopandas &ge;0.14.2
-- geocube
-- rioxarray
-- argparse
+- matplotlib 3.8
+- numpy 1.26.3
+- pandas 2.1.4
+- pyproj 3.6.1
+- rasterio 1.3.9
+- rioxarray 0.15
+- shapely 2.0.2
+
 
 
 *Jupyter notebook*
