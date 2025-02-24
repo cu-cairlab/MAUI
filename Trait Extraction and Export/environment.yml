@@ -2,6 +2,7 @@ name: trait-extract
 channels:
   - defaults
 dependencies:
+  - gdal=3.8.3
   - geocube=0.4.2
   - geopandas=0.14.2
   - matplotlib=3.8.0
