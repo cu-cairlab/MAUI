@@ -43,6 +43,8 @@ The required arguments (in order) are:
 - ```mask``` (string): path to the mask file (.tif, .png, or .jpg) for the orthomosaic. ```ortho``` and ```mask``` dimensions must match.
 - ```out_dir``` (string): path to the directory where output will be saved
 - ```metadata``` (string): path to the georeferenced metadata file (.geojson or .shp). The metadata file must have at least one attribute field containing an identifier variable (e.g. unique ID, plant number, etc.)
+
+  **Note:** If using a .shp file, make sure that your .shp file is located in a folder containing all ancillary file types (e.g. ```yourfile.shp```, ```yourfile.shx```, ```yourfile.dbf```, ```yourfile.prj```). Although these files are not called upon directly, if they are not present the script will not run.
 - ```id_vars``` (string): one or more identifier variables contained in the metadata file (e.g. 'plant_id', 'row')
 
 To use the script, follow these steps:
