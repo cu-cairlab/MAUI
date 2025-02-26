@@ -1,7 +1,7 @@
 **MAUI \- Modular Analytics of UAS Imagery**
 
 This repository contains the codebase to implement the workflow described in MAUI: Modular Analytics of UAS Imagery for Specialty Crop Research.
-Docker images for running the DeepLabv3 and SAM models, along with sample image datasets, can be accessed on [Box](https://cornell.app.box.com/folder/306827538774).
+Docker images for running the DeepLabv3 and SAM models, along with sample image datasets, can be accessed on [Box](XXX).
 
 The modules are:
 
@@ -34,9 +34,9 @@ Three methods for plant canopy segmentation are included in the corresponding su
 * Supervised deep learning \- DeepLabv3  
 * Vision foundation model \- SAM
 
-All methods require multispectral GEOTIFF files as input. Two sample GEOTIFF files are included in the [data](https://cornell.app.box.com/folder/306827586573) subfolder on Box: vineyard_sample.tif and hemp_sample.tif, for a chardonnay vineyard and a hemp field, respectively. 
+All methods require GEOTIFF files as input. Sample GEOTIFF files are included in the [sample_data](XXX) subfolder on Box.
 
-Documentation for each method is provided in the corresponding subfolders. Docker images and bash scripts are provided for the DeepLabv3 and SAM methods (Docker images can be downloaded from [Box](https://cornell.app.box.com/folder/306823112906)). For guidance on which method may be more appropriate for different kinds of specialty crop imagery, we refer users to the MAUI manuscript. 
+Documentation for each method is provided in the corresponding subfolders. Docker images and bash scripts are provided for the DeepLabv3 and SAM methods (Docker images can be downloaded from [Box](XXX)). For guidance on which method may be more appropriate for different kinds of specialty crop imagery, we refer users to the MAUI manuscript. 
 
 **Trait Extraction and Export**  
 Trait extraction is accomplished with the ```traitextract.py``` script. The functionality is demonstrated for a sample vineyard image dataset in the ```traitextract_grapevine.ipynb``` Jupyter notebook. The notebook shows how to use the canopy mask generated in the segmentation module and a GEOJSON metadat file  to extract geo-referenced reflectance data for all crop pixels. Users can also aggregate data by experimental unit (i.e. export average reflectance values per plant). The output of the trait extraction module is a CSV file with a row for each crop pixel and columns for experimental unit IDs, pixel coordinates, and reflectance values.
