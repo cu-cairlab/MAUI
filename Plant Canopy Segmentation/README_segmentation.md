@@ -2,9 +2,9 @@
 
 *Accessing Docker images*
 
-* The DeepLabv3 and SAM Docker images and sample datasets can be downloaded from Box [here](https://cornell.app.box.com/folder/306827538774). 
+* The DeepLabv3 and SAM Docker images and sample datasets can be downloaded from Box [here](XXX). 
 
-* Bash scripts to execute the Docker files are included in the subfolders in this repository and on Box (MAUI_Docker > [Bash_Scripts](https://cornell.app.box.com/folder/306827588973)).
+* Bash scripts to execute the Docker files are included in the subfolders in this repository and on Box (MAUI > [BashScripts](XXX)).
 
 * Documentation describing each model and how to execute / configure the bash scripts is included in the corresponsing subfolders in this repository.
 
