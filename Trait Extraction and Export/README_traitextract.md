@@ -25,7 +25,7 @@ Packages:
 The jupyter notebook [traitextract_grapevine.ipynb](https://github.com/cu-cairlab/MAUI/blob/main/Trait%20Extraction%20and%20Export/traitextract_grapevine.ipynb)
 demonstrates how to extract reflectance traits using grapevine as an example.
 Users can download the notebook and use it directly by inputting filepaths to their own datasets. 
-Sample data can also be downloaded from [Box](https://cornell.app.box.com/folder/308397071888). 
+Sample data can also be downloaded from [Box](https://cornell.app.box.com/s/vwb7pd4r546rfj0yrflyh4na5dj7ic97/folder/309581742856). 
 
 The files required to run the notebook are:
 * 10-band multispectral orthomosaic (.tif)
